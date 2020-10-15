@@ -1,7 +1,7 @@
 {
-  "name": "portfolio",
+  "name": "cv",
   "version": "0.1.0",
-  "homepage": "https://ranjit858084.000webhostapp.com",
+  "homepage": "https://SwagatRanjit84.github.io/cv",
   "private": true,
   "dependencies": {
     "@types/jest": "24.0.11",
