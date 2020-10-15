@@ -1,8 +1,8 @@
 {
+   "homepage": "https://swagatranjit84.github.io/cv/",
   "name": "cv",
   "version": "0.1.0",
-  "homepage": "https://swagatranjit84.github.io/cv",
-  "private": true,
+  "private": true,  
   "dependencies": {
     "@types/jest": "24.0.11",
     "@types/node": "11.13.0",
