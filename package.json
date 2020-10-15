@@ -1,7 +1,7 @@
 {
   "name": "cv",
   "version": "0.1.0",
-  "homepage": "https://SwagatRanjit84.github.io/cv",
+  "homepage": "https://swagatranjit84.github.io/cv",
   "private": true,
   "dependencies": {
     "@types/jest": "24.0.11",
