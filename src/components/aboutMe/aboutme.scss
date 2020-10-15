@@ -1,0 +1,29 @@
+.header {
+  text-align: center;
+  font-weight: 800;
+  font-size: 5vw;
+  margin-top: 5%;
+}
+
+.info {
+  font-size: 2vw;
+  padding: 2%;
+  width: 75%;
+  color: black;
+}
+
+@media screen and (max-width: 900px) {
+  .header {
+    text-align: center;
+    font-weight: 800;
+    font-size: 9vw;
+    margin-top: 5%;
+  }
+
+  .info {
+    font-size: 3.2vw;
+    padding: 2%;
+    width: 70vw;
+    color: black;
+  }
+}

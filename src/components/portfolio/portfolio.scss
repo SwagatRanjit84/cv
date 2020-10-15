@@ -1,0 +1,150 @@
+.main-container {
+  margin: 10px;
+}
+
+.headerData {
+  font-weight: 800;
+}
+
+.mainData {
+  font-weight: 800;
+  font-size: 5vw;
+}
+
+.mainClass {
+  text-align: center;
+}
+
+.header2 {
+  font-weight: 800;
+  font-size: 1.75em;
+}
+
+.language {
+  position: absolute;
+  margin-top: 17px;
+  left: 30px;
+  .sl-item {
+    margin: 2px;
+    padding: 15px;
+    border-radius: 50%;
+    color: #05386b;
+    transition: all 0.4s ease;
+    &:hover {
+      transform: scale(1.1);
+      background-color: #ffffff;
+    }
+  }
+  .python {
+    &:hover {
+      color: #333333;
+      border-color: #333333;
+    }
+  }
+  .linkedin {
+    &:java {
+      color: #0077b5;
+      border-color: #0077b5;
+    }
+  }
+  .html {
+    &:hover {
+      color: #f48024;
+      border-color: #f48024;
+    }
+  }
+  .react {
+    &:hover {
+      color: #1da1f2;
+      border-color: #1da1f2;
+    }
+  }
+}
+
+.details {
+  margin-top: 100px;
+  font-size: 1.4vw;
+  align-items: justify;
+}
+
+@media screen and (max-width: 900px) {
+  .mainData {
+    font-weight: 800;
+    font-size: 9vw;
+  }
+
+  .mainClass {
+    text-align: center;
+  }
+
+  .header {
+    text-align: center;
+    font-weight: 800;
+    font-size: 9vw;
+    margin-top: 5%;
+  }
+
+  .details {
+    margin-top: 100px;
+    font-size: 3.2vw;
+    align-items: justify;
+  }
+
+  .header2 {
+    font-weight: 800;
+    font-size: 1.75em;
+  }
+
+  .headerData {
+    font-size: 6vw;
+  }
+
+  .language {
+    position: absolute;
+    margin-top: 15px;
+    left: 2px;
+    .sl-item {
+      margin: 2px;
+      padding: 15px;
+      border-radius: 50%;
+      color: #05386b;
+      transition: all 0.4s ease;
+      &:hover {
+        transform: scale(1.1);
+        background-color: #ffffff;
+      }
+    }
+    .python {
+      &:hover {
+        color: #333333;
+        border-color: #333333;
+      }
+    }
+    .linkedin {
+      &:java {
+        color: #0077b5;
+        border-color: #0077b5;
+      }
+    }
+    .html {
+      &:hover {
+        color: #f48024;
+        border-color: #f48024;
+      }
+    }
+    .react {
+      &:hover {
+        color: #1da1f2;
+        border-color: #1da1f2;
+      }
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.link {
+  color: "#000";
+}

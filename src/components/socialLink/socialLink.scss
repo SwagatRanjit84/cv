@@ -1,0 +1,42 @@
+.social-link {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  .sl-item {
+    font-size: 25px;
+    margin: 2px;
+    padding: 5px;
+    border-radius: 50%;
+    color: #05386b;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    &:hover {
+      transform: scale(1.1);
+      background-color: #ffffff;
+    }
+  }
+  .github {
+    &:hover {
+      color: #333333;
+      border-color: #333333;
+    }
+  }
+  .linkedin {
+    &:hover {
+      color: #0077b5;
+      border-color: #0077b5;
+    }
+  }
+  .stack {
+    &:hover {
+      color: #f48024;
+      border-color: #f48024;
+    }
+  }
+  .twitter {
+    &:hover {
+      color: #1da1f2;
+      border-color: #1da1f2;
+    }
+  }
+}
